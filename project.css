@@ -1,0 +1,46 @@
+body{
+    padding: 1px;
+    background: linear-gradient(to right,aqua, white); 
+}
+h1{
+    text-align: center;
+    text-decoration: overline;
+    color: black;
+}
+h1:hover{
+    color: yellow;
+}
+.a{
+    background-color:darkcyan;
+    width: 80%;
+    min-height: 100vh;
+    padding: 1px;
+}
+.paras{
+    background: linear-gradient(orange, yellow);
+    padding: 2px;
+    font-family: sans-serif, monospace, serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    border-radius: 20px;
+    margin: 3px;
+}
+#no{
+    border-style:none;
+    border-color:black;
+    padding: 2px;
+    margin: 1px;
+    font-family: fantasy;
+}
+button{
+    border-style:none;
+    border-color:black;
+    padding: 2px;
+    margin: 1px;
+    font-family: fantasy;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+button:hover{
+    background-color: aqua;
+}
